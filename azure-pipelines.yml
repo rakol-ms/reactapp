@@ -33,7 +33,7 @@ steps:
 #   publishLocation: Container
 #   PathtoPublish: $(Build.ArtifactStagingDirectory)
 - task: AzureWebApp@1
-  displayName: 'Azure Web App Deploy: atulvotingapp'
+  displayName: 'Azure Web App Deploy: reactappyaml'
   inputs:
     azureSubscription: 'RMPM (afc11291-9826-46be-b852-70349146ddf8)'
     appType: webAppLinux
